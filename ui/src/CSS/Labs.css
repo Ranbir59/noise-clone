@@ -1,0 +1,14 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  
+.lab1 {
+    width: 10%;
+    height: 10%;
+  }
+  

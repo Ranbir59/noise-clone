@@ -1,0 +1,25 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+
+  .watchdiv {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .watchhead {
+    color: white;
+    margin-top: 25px;
+    font-family: "Oswald", sans-serif;
+    font-style: oblique;
+  }
+  
+  .watch-container {
+    background-color: black;
+  }

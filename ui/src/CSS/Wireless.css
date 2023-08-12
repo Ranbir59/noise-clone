@@ -1,0 +1,122 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  .marquee {
+    height: 50px;
+    background-color: red;
+  
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .wirediv {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  .mardiv {
+    background-color: black;
+  }
+  
+  .wireheading {
+    color: white;
+    margin-top: 25px;
+    font-family: "Oswald", sans-serif;
+    font-style: oblique;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card {
+    background-color: black;
+    width: 60%;
+    height: 55%;
+    /* margin-left: 60px; */
+    border-radius: 30px;
+  }
+  
+  .card-price {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: white;
+  }
+  
+  .card-title {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: white;
+  }
+  
+  .card-text {
+    font-weight: 500;
+    color: white;
+  }
+  
+  .wireless-container {
+    background-color: black;
+  }
+  
+  .cta {
+    border: none;
+    background: none;
+  margin-left: 0px;
+  }
+  
+  .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: rgb(249, 242, 242);
+    padding-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 8rem;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fffefe;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .nlauch {
+    margin-top: 10px;
+    font-size: 3rem;
+  }
+  
+  

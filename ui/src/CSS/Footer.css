@@ -1,0 +1,71 @@
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.footerlogo{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 25px;
+  height: 40%;
+}
+.Listed li:hover{
+  color: rgb(6, 94, 3);;
+}
+.Listd {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  
+}
+.List {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  /* font-style: oblique; */
+}
+
+.List li:hover {
+  color: green;
+}
+
+.headingf {
+  color: green;
+  font-family: 'Poppins', sans-serif;
+}
+.add {
+  font-weight: 300;
+}
+
+.payment {
+  background-color: transparent;
+  width: 70%;
+  height: 80%;
+  margin-top: 14px;
+
+ 
+}
+
+.fa-brands {
+  color: white;
+}
+.fa-brands:hover {
+  color:rgb(6, 94, 3);
+}
+.headingf{
+  font-style: oblique;
+}
+.call {
+  color: rgb(6, 94, 3);
+  margin-left: 20px;
+}
+.number{
+  margin-left: 15px;
+}
+
+.copyright {
+  background-color: rgb(6, 91, 6);
+  color: black;
+  font-weight: 600;
+}

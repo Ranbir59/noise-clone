@@ -1,0 +1,24 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+.headdiv {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .head {
+    color: white;
+    margin-top: 25px;
+    font-family: "Oswald", sans-serif;
+    font-style: oblique;
+  }
+  
+  .head-container {
+    background-color: black;
+  }
