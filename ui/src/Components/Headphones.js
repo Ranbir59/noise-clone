@@ -10,7 +10,7 @@ const Headphones = () => {
 
   const headapi = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/headphones");
+      const res = await axios.get("https://noise-clone-x12u.vercel.app/headphones");
       setHead(res.data);
     } catch (error) {
       console.log(error.message);

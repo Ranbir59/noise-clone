@@ -12,7 +12,7 @@ const Watchdetail = () => {
 
   const detail = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/watch");
+      const res = await axios.get("https://noise-clone-x12u.vercel.app/watch");
 
       const NewData = res.data.find((item) => item.id === parseInt(id));
       setData(NewData);

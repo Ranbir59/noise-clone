@@ -7,7 +7,7 @@ const Watches = () => {
 
   const wapi=async()=>{
     try {
-      const res =await axios.get("http://localhost:5000/watch")
+      const res =await axios.get("https://noise-clone-x12u.vercel.app/watch")
 
       setWatch(res.data)
     } catch (error) {

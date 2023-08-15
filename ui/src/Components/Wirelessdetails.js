@@ -12,7 +12,7 @@ const Wirelessdetails = () => {
 
   const detail = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/wireless");
+      const res = await axios.get("https://noise-clone-x12u.vercel.app/wireless");
 
       const NewData = res.data.find((item) => item.id === parseInt(id));
       setData(NewData);

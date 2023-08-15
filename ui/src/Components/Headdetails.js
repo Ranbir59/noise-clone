@@ -12,7 +12,7 @@ const Headdetails = () => {
 
   const detail = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/headphones");
+      const res = await axios.get("https://noise-clone-x12u.vercel.app/headphones");
 
       const NewData = res.data.find((item) => item.id === parseInt(id));
       setData(NewData);
